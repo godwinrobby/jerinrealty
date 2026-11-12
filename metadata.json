@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Aura Prime Real Estate",
+  "description": "Responsive luxury property listing platform with interactive map overlays, multi-parameter search, property detail view, director profiles, and concierge enquiry accordions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

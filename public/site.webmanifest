@@ -1,0 +1,23 @@
+{
+  "name": "Jerin Realty",
+  "short_name": "Jerin Realty",
+  "description": "Commercial Real Estate & Pre-Leased Investment Advisory",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#17213A",
+  "theme_color": "#6246EA",
+  "icons": [
+    {
+      "src": "/images/Jerin-Realty-Logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/Jerin-Realty-Logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-brand-purple: #6246EA;
+  --color-brand-blue: #2878FF;
+  --color-brand-coral: #FF7043;
+  --color-brand-yellow: #FFC857;
+  --color-brand-lavender: #F7F5FF;
+  --color-brand-navy: #17213A;
+  --color-brand-secondary: #727B91;
+  --color-brand-emerald: #12A878;
+}
+
+:root {
+  --primary: #6246EA;
+  --secondary: #2878FF;
+  --accent: #FF7043;
+  --highlight: #FFC857;
+  --bg-lavender: #F7F5FF;
+  --text-navy: #17213A;
+  --text-muted: #727B91;
+  --success: #12A878;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F7F5FF;
+  color: #17213A;
+  overflow-x: hidden;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Vibrant Gradients */
+.gradient-primary {
+  background: linear-gradient(135deg, #6246EA 0%, #2878FF 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #FF7043 0%, #FFC857 100%);
+}
+
+.gradient-hero-overlay {
+  background: linear-gradient(135deg, rgba(23, 33, 58, 0.92) 0%, rgba(98, 70, 234, 0.82) 55%, rgba(40, 120, 255, 0.72) 100%);
+}
+
+.gradient-card-overlay {
+  background: linear-gradient(180deg, rgba(23, 33, 58, 0) 30%, rgba(23, 33, 58, 0.88) 100%);
+}
+
+.gradient-sunset {
+  background: linear-gradient(135deg, #6246EA 0%, #FF7043 100%);
+}
+
+.gradient-cta {
+  background: linear-gradient(135deg, #6246EA 0%, #2878FF 50%, #FF7043 100%);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(235, 230, 255, 0.8);
+}
+
+.glass-card-dark {
+  background: rgba(23, 33, 58, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F0ECFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #C7BFF4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6246EA;
+}
